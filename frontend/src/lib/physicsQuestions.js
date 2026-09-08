@@ -53,6 +53,7 @@ const POT_CAP_NUMERIC = [
 const ECF_5M = [
   [
     P("2027", "Model Paper", "teal", [
+      { tag: "Model Paper 2", qno: "Q24", marks: 5, text: "Derive an expression for the intensity of electric field at a point on the axial line of a dipole." },
       { tag: "Model Paper 3", qno: "Q37", marks: 5, text: "Derive an expression for the electric field at a point on the axis of an electric dipole." },
       { tag: "Model Paper 5", qno: "Q37", marks: 5, text: "State Gauss law in electrostatics. Using it, derive the expression for the electric field at a point due to an infinitely long, straight, uniformly charged wire." },
     ]),
