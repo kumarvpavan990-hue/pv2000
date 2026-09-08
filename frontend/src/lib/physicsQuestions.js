@@ -151,6 +151,7 @@ const POT_CAP_3M = [
   [
     P("2027", "Model Paper", "teal", [
       { tag: "Model Paper 1", qno: "Q30", marks: 3, text: "What is a capacitor? Mention two factors on which capacitance of a parallel plate capacitor depends." },
+      { tag: "Model Paper 2", qno: "Q30", marks: 3, text: "Mention any three important results regarding the electrostatics of conductors." },
       { tag: "Model Paper 3", qno: "Q30", marks: 3, text: "Obtain the expression for equivalent capacitance of two capacitors connected in series." },
       { tag: "Model Paper 4", qno: "Q30", marks: 3, text: "Derive an expression for the potential energy of a system of two point charges in the absence of external electric field." },
       { tag: "Model Paper 5", qno: "Q30", marks: 3, text: "Derive the relation between electric field and electric potential." },
