@@ -7,6 +7,7 @@
 import { RF_5M_PAGES } from "@/lib/rfQuestions";
 import { MATH_5M } from "@/lib/math5mQuestions";
 import { MATH_6P4 } from "@/lib/math6p4Questions";
+import { MATH_2M } from "@/lib/math2mQuestions";
 
 export const CHAPTER_QUESTION_BANKS = {
   // Relations and Functions · 5 Mark — shared by both flows (label + chapter-no keys)
@@ -24,7 +25,12 @@ export const CHAPTER_QUESTION_BANKS = {
   "math:Continuity & Differentiability:5m": MATH_5M["Continuity & Differentiability"],
   "math:Integrals:5m": MATH_5M["Integrals"],
   "math:Application of Integrals:5m": MATH_5M["Application of Integrals"],
-  "math:Differential Equations:5m": MATH_5M["Differential Equations"],
+  // Math Part B (2 Mark) chapters — both label + chapter-no keys registered so
+  // the chapter-wise flow and pattern flow both resolve to the SAME content.
+  "math:Inverse Trigonometric Functions:2m": MATH_2M["Inverse Trigonometric Functions"],
+  "math:2:2m": MATH_2M["Inverse Trigonometric Functions"],
+  "math:Determinants:2m": MATH_2M["Determinants"],
+  "math:4:2m": MATH_2M["Determinants"],
 };
 
 export function getChapterBank(subjectId, ch, mark) {
