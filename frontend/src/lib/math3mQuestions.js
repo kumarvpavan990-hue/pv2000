@@ -28,6 +28,25 @@ const INVERSE_TRIG_3M = [
       { tag: "Paper 5", qno: "Q31", marks: 3, text: "Prove that $\\cos^{-1}\\dfrac{4}{5} + \\cos^{-1}\\dfrac{12}{13} = \\cos^{-1}\\dfrac{33}{65}$." },
     ]),
   ],
+  [
+    P("2026", "Exam", "blue", [
+      { tag: "Exam 1", qno: "Q31", marks: 3, text: "Prove that $3\\cos^{-1} x = \\cos^{-1}(4x^{3} - 3x)$, $x \\in \\left[\\dfrac{1}{2}, 1\\right]$." },
+      { tag: "Exam 2", qno: "Q31", marks: 3, text: "Prove that $\\cos^{-1}\\left(\\dfrac{4}{5}\\right) + \\cos^{-1}\\left(\\dfrac{12}{13}\\right) = \\cos^{-1}\\left(\\dfrac{33}{65}\\right)$." },
+    ]),
+  ],
+  [
+    P("2025", "Exam", "sky", [
+      { tag: "Exam 1", qno: "Q31", marks: 3, text: "Prove that $\\tan^{-1}\\left(\\dfrac{63}{16}\\right) = \\sin^{-1}\\left(\\dfrac{5}{13}\\right) + \\cos^{-1}\\left(\\dfrac{3}{5}\\right)$." },
+      { tag: "Exam 2", qno: "Q31", marks: 3, text: "Prove that $\\cos^{-1}\\left(\\dfrac{4}{5}\\right) - \\cos^{-1}\\left(\\dfrac{12}{13}\\right) = \\cos^{-1}\\left(\\dfrac{63}{65}\\right)$." },
+      { tag: "Exam 3", qno: "Q31", marks: 3, text: "Prove that $\\sin^{-1}\\left(\\dfrac{5}{13}\\right) + \\cos^{-1}\\left(\\dfrac{3}{5}\\right) = \\tan^{-1}\\left(\\dfrac{63}{16}\\right)$." },
+    ]),
+  ],
+  [
+    P("2024", "Exam", "indigo", [
+      { tag: "Exam 2", qno: "Q33", marks: 3, text: "Write the simplest form of $\\tan^{-1}\\left(\\dfrac{\\cos x - \\sin x}{\\cos x + \\sin x}\\right)$, $-\\dfrac{3\\pi}{4} < x < \\dfrac{\\pi}{2}$." },
+      { tag: "Exam 3", qno: "Q33", marks: 3, text: "Prove that $\\cos^{-1}\\left(\\dfrac{4}{5}\\right) + \\cos^{-1}\\left(\\dfrac{12}{13}\\right) = \\cos^{-1}\\left(\\dfrac{33}{65}\\right)$." },
+    ]),
+  ],
 ];
 
 export const MATH_3M = {
