@@ -113,7 +113,6 @@ const ECF_3M = [
     P("2027", "Model Paper", "teal", [
       { tag: "Model Paper 1", qno: "Q29", marks: 3, text: "Derive an expression for torque acting on an electric dipole placed in a uniform electric field." },
       { tag: "Model Paper 2", qno: "Q29", marks: 3, text: "Give Coulomb's law in vector form and explain the terms. Define SI unit of charge using Coulomb's law." },
-      { tag: "Model Paper 2", qno: "Q30", marks: 3, text: "Mention any three important results regarding electrostatics of conductors." },
       { tag: "Model Paper 3", qno: "Q29", marks: 3, text: "Define linear charge density. Mention the expression for electric field at a point due to an infinitely long uniformly charged wire and explain the terms." },
       { tag: "Model Paper 4", qno: "Q29", marks: 3, text: "Show that the total electric flux through the surface of a sphere enclosing a point charge $q$ at its centre is $\\dfrac{q}{\\epsilon_0}$." },
       { tag: "Model Paper 5", qno: "Q29", marks: 3, text: "Mention three properties of electric field lines." },
