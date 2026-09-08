@@ -47,6 +47,13 @@ const POT_CAP_NUMERIC = [
       { tag: "Exam 2", qno: "Q42", marks: 5, text: "A network of four $9\\,\\mu F$ capacitors is connected to a 300 V supply as shown in figure. Determine a) equivalent capacitance of the network and b) the charge on each capacitor." },
     ]),
   ],
+  [
+    P("2023", "Exam", "violet", [
+      { tag: "Main Exam", qno: "Q45", marks: 5, text: "Charges $2\\,\\mu\\text{C}$, $4\\,\\mu\\text{C}$ and $6\\,\\mu\\text{C}$ are placed at the three corners A, B and C respectively of a square ABCD of side $X$ metre. Find the charge that must be placed at the fourth corner so that the total potential at the centre of the square is zero." },
+      { tag: "Supplement 1", qno: "Q45", marks: 5, text: "Two capacitors of capacitances $3\\,\\text{pF}$ and $7\\,\\text{pF}$ are connected in series and the combination is connected to a source of emf $10\\,\\text{V}$. Calculate the effective capacitance of the combination. Also find the potential difference across each capacitor." },
+      { tag: "Supplement 2", qno: "Q45", marks: 5, text: "Three capacitors of capacitances $2\\,\\text{pF}$, $3\\,\\text{pF}$ and $4\\,\\text{pF}$ are connected in parallel. (a) What is the total capacitance of the combination? (b) Determine the charge on each capacitor, if the combination is connected to a $100\\,\\text{V}$ supply." },
+    ]),
+  ],
 ];
 
 // ---- Electric Charges and Fields (5 Mark theory + Numericals) ----
