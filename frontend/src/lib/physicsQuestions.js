@@ -36,6 +36,44 @@ const POT_CAP_NUMERIC = [
   ],
 ];
 
+// ---- Electric Charges and Fields (5 Mark theory + Numericals) ----
+const ECF_5M = [
+  [
+    P("2026", "Exam", "blue", [
+      { tag: "Exam 1", qno: "Q37", marks: 5, text: "Arrive at the expression for the electric field at a point due to an infinitely long uniformly charged straight wire using Gauss's law." },
+      { tag: "Exam 2", qno: "Q37", marks: 5, text: "State Gauss's law in electrostatics. Using it arrive at the expression for the electric field due to an infinitely long uniformly-charged conducting wire." },
+    ]),
+  ],
+  [
+    P("2025", "Exam", "sky", [
+      { tag: "Exam 2", qno: "Q37", marks: 5, text: "Deduce an expression for electric field at a point outside a thin uniformly-charged spherical shell using Gauss's law." },
+    ]),
+  ],
+  [
+    P("2023", "Exam", "violet", [
+      { tag: "Main Exam", qno: "Q39", marks: 5, text: "State Gauss's law in electrostatics. Derive an expression for the electric field at a point due to an infinitely long thin charged straight wire using Gauss's law." },
+      { tag: "Supplement", qno: "Q39", marks: 5, text: "Derive the expression for the electric field at a point on the equatorial line of an electric dipole." },
+      { tag: "Supplement (2nd Set)", qno: "Q39", marks: 5, text: "Derive an expression for the electric field at a point due to an infinitely long thin charged straight wire using Gauss's law." },
+    ]),
+  ],
+];
+
+const ECF_NUMERIC = [
+  [
+    P("2025", "Exam", "sky", [
+      { tag: "Exam 1", qno: "Q42", marks: 5, text: "A uniformly charged spherical shell of radius 10 cm has a surface charge density of $16\\,\\mu C/m^{2}$. Find the electric field due to the shell at a distance of (a) 20 cm from the centre of the shell, (b) 5 cm from the centre of the shell." },
+      { tag: "Exam 3", qno: "Q42", marks: 5, text: "Two point charges $2\\,\\mu C$ and $3\\,\\mu C$ are placed at the two corners A and B of an equilateral triangle ABC of side 0.2 m. Calculate the magnitude of resultant electric field at the corner C of that triangle." },
+    ]),
+  ],
+  [
+    P("2024", "Exam", "indigo", [
+      { tag: "Exam 1", qno: "Q45", marks: 5, text: "Two point charges $+15\\,\\mu C$ and $-10\\,\\mu C$ are separated by a distance of 20 cm in air. Calculate the electric field at the mid point of the line joining two charges. If a point charge of 20 mC is placed at that mid point, what is the magnitude of electric force experienced by it?" },
+      { tag: "Exam 2", qno: "Q45", marks: 5, text: "The electrostatic force on a small sphere of charge $0.4\\,\\mu C$ due to another small sphere of charge $-0.8\\,\\mu C$ in air separated by a distance $d$ is 0.2 N. (a) Find the distance between the two spheres. (b) What is the magnitude and nature of force on the second sphere due to the first?" },
+      { tag: "Exam 3", qno: "Q45", marks: 5, text: "The electrostatic force on a metal sphere of charge $0.5\\,\\mu C$ due to another identical metal sphere of charge $-1.2\\,\\mu C$ is $45 \\times 10^{-3}$ N. Find the distance between two spheres. Also find the force between the same two spheres when they are brought into contact and then placed at their initial position." },
+    ]),
+  ],
+];
+
 // ================= 3 Mark (Part C) =================
 const ECF_3M = [
   [
@@ -140,8 +178,14 @@ const POT_CAP_2M = [
   ],
 ];
 
-export const PHYSICS_5M = { "Electrostatic Potential and Capacitance": POT_CAP_5M };
-export const PHYSICS_NUMERIC = { "Electrostatic Potential and Capacitance": POT_CAP_NUMERIC };
+export const PHYSICS_5M = {
+  "Electric Charges and Fields": ECF_5M,
+  "Electrostatic Potential and Capacitance": POT_CAP_5M,
+};
+export const PHYSICS_NUMERIC = {
+  "Electric Charges and Fields": ECF_NUMERIC,
+  "Electrostatic Potential and Capacitance": POT_CAP_NUMERIC,
+};
 export const PHYSICS_3M = {
   "Electric Charges and Fields": ECF_3M,
   "Electrostatic Potential and Capacitance": POT_CAP_3M,

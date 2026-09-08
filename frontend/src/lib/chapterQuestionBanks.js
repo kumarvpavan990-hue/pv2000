@@ -46,10 +46,18 @@ export const CHAPTER_QUESTION_BANKS = {
   "physics:Electrostatic Potential and Capacitance:5m": PHYSICS_5M["Electrostatic Potential and Capacitance"],
   "physics:Electrostatic Potential & Capacitance:5m": PHYSICS_5M["Electrostatic Potential and Capacitance"],
   "physics:2:5m": PHYSICS_5M["Electrostatic Potential and Capacitance"],
-  // Numericals
+  // Part D (5 Mark) — Electric Charges & Fields
+  "physics:Electric Charges & Fields:5m": PHYSICS_5M["Electric Charges and Fields"],
+  "physics:Electric Charges and Fields:5m": PHYSICS_5M["Electric Charges and Fields"],
+  "physics:1:5m": PHYSICS_5M["Electric Charges and Fields"],
+  // Numericals — Potential & Capacitance
   "physics:Electrostatic Potential and Capacitance:numeric": PHYSICS_NUMERIC["Electrostatic Potential and Capacitance"],
   "physics:Electrostatic Potential & Capacitance:numeric": PHYSICS_NUMERIC["Electrostatic Potential and Capacitance"],
   "physics:2:numeric": PHYSICS_NUMERIC["Electrostatic Potential and Capacitance"],
+  // Numericals — Electric Charges & Fields
+  "physics:Electric Charges & Fields:numeric": PHYSICS_NUMERIC["Electric Charges and Fields"],
+  "physics:Electric Charges and Fields:numeric": PHYSICS_NUMERIC["Electric Charges and Fields"],
+  "physics:1:numeric": PHYSICS_NUMERIC["Electric Charges and Fields"],
   // Part C (3 Mark)
   "physics:Electric Charges & Fields:3m": PHYSICS_3M["Electric Charges and Fields"],
   "physics:Electric Charges and Fields:3m": PHYSICS_3M["Electric Charges and Fields"],
