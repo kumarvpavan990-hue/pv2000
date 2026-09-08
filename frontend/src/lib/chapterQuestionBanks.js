@@ -9,6 +9,7 @@ import { MATH_5M } from "@/lib/math5mQuestions";
 import { MATH_6P4 } from "@/lib/math6p4Questions";
 import { MATH_2M } from "@/lib/math2mQuestions";
 import { MATH_3M } from "@/lib/math3mQuestions";
+import { PHYSICS_5M, PHYSICS_NUMERIC, PHYSICS_3M, PHYSICS_2M } from "@/lib/physicsQuestions";
 
 export const CHAPTER_QUESTION_BANKS = {
   // Relations and Functions · 5 Mark — shared by both flows (label + chapter-no keys)
@@ -38,6 +39,31 @@ export const CHAPTER_QUESTION_BANKS = {
   "math:1:3m": MATH_3M["Relations and Functions"],
   "math:Inverse Trigonometric Functions:3m": MATH_3M["Inverse Trigonometric Functions"],
   "math:2:3m": MATH_3M["Inverse Trigonometric Functions"],
+
+  // ===== Physics — Electric Charges and Fields & Electrostatic Potential and
+  // Capacitance. Register every label spelling used by the two flows + ch-no.
+  // Part D (5 Mark) — Potential & Capacitance
+  "physics:Electrostatic Potential and Capacitance:5m": PHYSICS_5M["Electrostatic Potential and Capacitance"],
+  "physics:Electrostatic Potential & Capacitance:5m": PHYSICS_5M["Electrostatic Potential and Capacitance"],
+  "physics:2:5m": PHYSICS_5M["Electrostatic Potential and Capacitance"],
+  // Numericals
+  "physics:Electrostatic Potential and Capacitance:numeric": PHYSICS_NUMERIC["Electrostatic Potential and Capacitance"],
+  "physics:Electrostatic Potential & Capacitance:numeric": PHYSICS_NUMERIC["Electrostatic Potential and Capacitance"],
+  "physics:2:numeric": PHYSICS_NUMERIC["Electrostatic Potential and Capacitance"],
+  // Part C (3 Mark)
+  "physics:Electric Charges & Fields:3m": PHYSICS_3M["Electric Charges and Fields"],
+  "physics:Electric Charges and Fields:3m": PHYSICS_3M["Electric Charges and Fields"],
+  "physics:1:3m": PHYSICS_3M["Electric Charges and Fields"],
+  "physics:Electrostatic Potential and Capacitance:3m": PHYSICS_3M["Electrostatic Potential and Capacitance"],
+  "physics:Electrostatic Potential & Capacitance:3m": PHYSICS_3M["Electrostatic Potential and Capacitance"],
+  "physics:2:3m": PHYSICS_3M["Electrostatic Potential and Capacitance"],
+  // Part B (2 Mark)
+  "physics:Electric Charges & Fields:2m": PHYSICS_2M["Electric Charges and Fields"],
+  "physics:Electric Charges and Fields:2m": PHYSICS_2M["Electric Charges and Fields"],
+  "physics:1:2m": PHYSICS_2M["Electric Charges and Fields"],
+  "physics:Electrostatic Potential and Capacitance:2m": PHYSICS_2M["Electrostatic Potential and Capacitance"],
+  "physics:Electrostatic Potential & Capacitance:2m": PHYSICS_2M["Electrostatic Potential and Capacitance"],
+  "physics:2:2m": PHYSICS_2M["Electrostatic Potential and Capacitance"],
 };
 
 export function getChapterBank(subjectId, ch, mark) {
