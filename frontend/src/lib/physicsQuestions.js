@@ -121,7 +121,6 @@ const ECF_3M = [
   [
     P("2026", "Exam", "blue", [
       { tag: "Exam 1", qno: "Q29", marks: 3, text: "Give Coulomb's law in vector form and explain the terms. Define SI unit of charge." },
-      { tag: "Exam 2", qno: "Q29", marks: 3, text: "Derive an expression for the torque experienced by an electric dipole placed in a uniform electric field." },
       { tag: "Exam 2", qno: "Q30", marks: 3, text: "List out the three important results regarding electrostatics of conductors." },
     ]),
   ],
@@ -160,6 +159,7 @@ const POT_CAP_3M = [
   [
     P("2026", "Exam", "blue", [
       { tag: "Exam 1", qno: "Q30", marks: 3, text: "What is a capacitor? Mention any two factors on which capacitance of a parallel plate capacitor depends." },
+      { tag: "Exam 2", qno: "Q29", marks: 3, text: "Derive an expression for the torque experienced by an electric dipole placed in a uniform electric field." },
     ]),
   ],
   [
