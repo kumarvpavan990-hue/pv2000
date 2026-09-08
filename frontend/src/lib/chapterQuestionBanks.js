@@ -12,6 +12,7 @@ import { MATH_3M } from "@/lib/math3mQuestions";
 import { PHYSICS_5M, PHYSICS_NUMERIC, PHYSICS_3M, PHYSICS_2M } from "@/lib/physicsQuestions";
 import { PHYSICS_3M_EXTRA } from "@/lib/physics3mQuestions";
 import { CHEMISTRY_2M } from "@/lib/chemistryQuestions";
+import { CHEMISTRY_5M } from "@/lib/chemistry5mQuestions";
 
 export const CHAPTER_QUESTION_BANKS = {
   // Relations and Functions · 5 Mark — shared by both flows (label + chapter-no keys)
@@ -104,6 +105,14 @@ export const CHAPTER_QUESTION_BANKS = {
   "chemistry:The d & f Block Elements:2m": CHEMISTRY_2M["The d & f Block Elements"],
   "chemistry:The d- and f-Block Elements:2m": CHEMISTRY_2M["The d & f Block Elements"],
   "chemistry:4:2m": CHEMISTRY_2M["The d & f Block Elements"],
+
+  // ===== Chemistry — 5 Mark (Part D, organic) =====
+  "chemistry:Haloalkanes & Haloarenes:5m-org": CHEMISTRY_5M["Haloalkanes & Haloarenes"],
+  "chemistry:Haloalkanes and Haloarenes:5m-org": CHEMISTRY_5M["Haloalkanes & Haloarenes"],
+  "chemistry:6:5m-org": CHEMISTRY_5M["Haloalkanes & Haloarenes"],
+  "chemistry:Alcohols, Phenols & Ethers:5m-org": CHEMISTRY_5M["Alcohols, Phenols & Ethers"],
+  "chemistry:Alcohols, Phenols and Ethers:5m-org": CHEMISTRY_5M["Alcohols, Phenols & Ethers"],
+  "chemistry:7:5m-org": CHEMISTRY_5M["Alcohols, Phenols & Ethers"],
 };
 
 export function getChapterBank(subjectId, ch, mark) {
