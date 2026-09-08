@@ -10,6 +10,7 @@ import { MATH_6P4 } from "@/lib/math6p4Questions";
 import { MATH_2M } from "@/lib/math2mQuestions";
 import { MATH_3M } from "@/lib/math3mQuestions";
 import { PHYSICS_5M, PHYSICS_NUMERIC, PHYSICS_3M, PHYSICS_2M } from "@/lib/physicsQuestions";
+import { PHYSICS_3M_EXTRA } from "@/lib/physics3mQuestions";
 
 export const CHAPTER_QUESTION_BANKS = {
   // Relations and Functions · 5 Mark — shared by both flows (label + chapter-no keys)
@@ -72,6 +73,28 @@ export const CHAPTER_QUESTION_BANKS = {
   "physics:Electrostatic Potential and Capacitance:2m": PHYSICS_2M["Electrostatic Potential and Capacitance"],
   "physics:Electrostatic Potential & Capacitance:2m": PHYSICS_2M["Electrostatic Potential and Capacitance"],
   "physics:2:2m": PHYSICS_2M["Electrostatic Potential and Capacitance"],
+
+  // ===== Physics — additional 3 Mark chapters (both label spellings + ch-no) =====
+  "physics:Current Electricity:3m": PHYSICS_3M_EXTRA["Current Electricity"],
+  "physics:3:3m": PHYSICS_3M_EXTRA["Current Electricity"],
+  "physics:Moving Charges & Magnetism:3m": PHYSICS_3M_EXTRA["Moving Charges and Magnetism"],
+  "physics:Moving Charges and Magnetism:3m": PHYSICS_3M_EXTRA["Moving Charges and Magnetism"],
+  "physics:4:3m": PHYSICS_3M_EXTRA["Moving Charges and Magnetism"],
+  "physics:Magnetism & Matter:3m": PHYSICS_3M_EXTRA["Magnetism and Matter"],
+  "physics:Magnetism and Matter:3m": PHYSICS_3M_EXTRA["Magnetism and Matter"],
+  "physics:5:3m": PHYSICS_3M_EXTRA["Magnetism and Matter"],
+  "physics:Electromagnetic Induction:3m": PHYSICS_3M_EXTRA["Electromagnetic Induction"],
+  "physics:6:3m": PHYSICS_3M_EXTRA["Electromagnetic Induction"],
+  "physics:Ray Optics and Optical Instruments:3m": PHYSICS_3M_EXTRA["Ray Optics and Optical Instruments"],
+  "physics:Ray Optics:3m": PHYSICS_3M_EXTRA["Ray Optics and Optical Instruments"],
+  "physics:9:3m": PHYSICS_3M_EXTRA["Ray Optics and Optical Instruments"],
+  "physics:Dual Nature of Radiation:3m": PHYSICS_3M_EXTRA["Dual Nature of Radiation and Matter"],
+  "physics:Dual Nature of Radiation and Matter:3m": PHYSICS_3M_EXTRA["Dual Nature of Radiation and Matter"],
+  "physics:11:3m": PHYSICS_3M_EXTRA["Dual Nature of Radiation and Matter"],
+  "physics:Atoms:3m": PHYSICS_3M_EXTRA["Atoms"],
+  "physics:12:3m": PHYSICS_3M_EXTRA["Atoms"],
+  "physics:Nuclei:3m": PHYSICS_3M_EXTRA["Nuclei"],
+  "physics:13:3m": PHYSICS_3M_EXTRA["Nuclei"],
 };
 
 export function getChapterBank(subjectId, ch, mark) {

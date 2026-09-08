@@ -3,7 +3,7 @@
 
 export const PHYSICS_CHAPTERS = {
   "2m": ["Electric Charges & Fields", "Electrostatic Potential & Capacitance", "Current Electricity", "Moving Charges & Magnetism", "Electromagnetic Induction", "Electromagnetic Waves", "Atoms", "Semiconductor Electronics"],
-  "3m": ["Electric Charges & Fields", "Electrostatic Potential & Capacitance", "Moving Charges & Magnetism", "Magnetism & Matter", "Electromagnetic Induction", "Ray Optics and Optical Instruments", "Dual Nature of Radiation", "Nuclei"],
+  "3m": ["Electric Charges & Fields", "Electrostatic Potential & Capacitance", "Current Electricity", "Moving Charges & Magnetism", "Magnetism & Matter", "Electromagnetic Induction", "Ray Optics and Optical Instruments", "Dual Nature of Radiation", "Atoms", "Nuclei"],
   "5m": ["Electric Charges & Fields", "Electrostatic Potential & Capacitance", "Current Electricity", "Moving Charges & Magnetism", "Ray Optics", "Wave Optics", "Semiconductor Electronics"],
   "numeric": ["Electric Charges & Fields", "Electrostatic Potential & Capacitance", "Current Electricity", "Alternating Current", "Ray Optics", "Wave Optics"],
 };
