@@ -242,7 +242,8 @@ const POT_CAP_2M = [
   [
     P("2023", "Exam", "violet", [
       { tag: "Main Exam", qno: "Q21", marks: 2, text: "On what factors does the capacitance of a parallel plate capacitor depend?" },
-      { tag: "Supplement", qno: "Q21", marks: 2, text: "Mention two properties of equipotential surfaces." },
+      { tag: "Supplement 1", qno: "Q21", marks: 2, text: "Mention two properties of equipotential surfaces." },
+      { tag: "Supplement 2", qno: "Q21", marks: 2, text: "Mention two properties of equipotential surfaces." },
     ]),
   ],
 ];
