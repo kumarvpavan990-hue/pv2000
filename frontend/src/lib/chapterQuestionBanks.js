@@ -11,6 +11,7 @@ import { MATH_2M } from "@/lib/math2mQuestions";
 import { MATH_3M } from "@/lib/math3mQuestions";
 import { PHYSICS_5M, PHYSICS_NUMERIC, PHYSICS_3M, PHYSICS_2M } from "@/lib/physicsQuestions";
 import { PHYSICS_3M_EXTRA } from "@/lib/physics3mQuestions";
+import { CHEMISTRY_2M } from "@/lib/chemistryQuestions";
 
 export const CHAPTER_QUESTION_BANKS = {
   // Relations and Functions · 5 Mark — shared by both flows (label + chapter-no keys)
@@ -95,6 +96,14 @@ export const CHAPTER_QUESTION_BANKS = {
   "physics:12:3m": PHYSICS_3M_EXTRA["Atoms"],
   "physics:Nuclei:3m": PHYSICS_3M_EXTRA["Nuclei"],
   "physics:13:3m": PHYSICS_3M_EXTRA["Nuclei"],
+
+  // ===== Chemistry — 2 Mark (both label spellings + ch-no) =====
+  "chemistry:Chemical Kinetics:2m": CHEMISTRY_2M["Chemical Kinetics"],
+  "chemistry:3:2m": CHEMISTRY_2M["Chemical Kinetics"],
+  "chemistry:d & f Block Elements:2m": CHEMISTRY_2M["The d & f Block Elements"],
+  "chemistry:The d & f Block Elements:2m": CHEMISTRY_2M["The d & f Block Elements"],
+  "chemistry:The d- and f-Block Elements:2m": CHEMISTRY_2M["The d & f Block Elements"],
+  "chemistry:4:2m": CHEMISTRY_2M["The d & f Block Elements"],
 };
 
 export function getChapterBank(subjectId, ch, mark) {
