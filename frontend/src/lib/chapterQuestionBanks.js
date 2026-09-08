@@ -8,6 +8,7 @@ import { RF_5M_PAGES } from "@/lib/rfQuestions";
 import { MATH_5M } from "@/lib/math5mQuestions";
 import { MATH_6P4 } from "@/lib/math6p4Questions";
 import { MATH_2M } from "@/lib/math2mQuestions";
+import { MATH_3M } from "@/lib/math3mQuestions";
 
 export const CHAPTER_QUESTION_BANKS = {
   // Relations and Functions · 5 Mark — shared by both flows (label + chapter-no keys)
@@ -31,6 +32,12 @@ export const CHAPTER_QUESTION_BANKS = {
   "math:2:2m": MATH_2M["Inverse Trigonometric Functions"],
   "math:Determinants:2m": MATH_2M["Determinants"],
   "math:4:2m": MATH_2M["Determinants"],
+
+  // Math Part C (3 Mark) chapters — label + chapter-no keys for both flows.
+  "math:Relations and Functions:3m": MATH_3M["Relations and Functions"],
+  "math:1:3m": MATH_3M["Relations and Functions"],
+  "math:Inverse Trigonometric Functions:3m": MATH_3M["Inverse Trigonometric Functions"],
+  "math:2:3m": MATH_3M["Inverse Trigonometric Functions"],
 };
 
 export function getChapterBank(subjectId, ch, mark) {
