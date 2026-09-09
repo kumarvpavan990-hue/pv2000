@@ -33,3 +33,30 @@ const D_F_BLOCK_3M = [
 export const CHEMISTRY_3M_INORG = {
   "The d & f Block Elements": D_F_BLOCK_3M,
 };
+
+const SOLUTIONS_3M = [
+  [P("2026-27", "Model Paper", "teal", [
+    Q("Model Paper 1", "Q32", "Name the concentration term which is commonly used in medicine and pharmacy. Write the definition and mathematical equation for that concentration term."),
+    Q("Model Paper 2", "Q32", "Write three reasons to justify that the osmotic pressure method has the advantage over other colligative methods for the measurement of molar mass of macromolecules."),
+    Q("Model Paper 3", "Q34", "Given below is the sketch of a plant for carrying out a process. (i) Name the process occurring in the given plant. (ii) Name any one SPM which can be used in this plant. (iii) Give one practical use of the plant."),
+    Q("Model Paper 4", "Q33", "What are ideal solutions? Write two characteristics of it."),
+  ])],
+  [P("2026", "Exam", "blue", [
+    Q("Exam 1", "Q33", "What are ideal solutions? Write two characteristics of it."),
+    Q("Exam 2", "Q31", "Write any three differences between ideal and non-ideal solutions."),
+  ])],
+  [P("2025", "Exam", "sky", [
+    Q("Exam 1", "Q33", "Define azeotropes. What type of azeotropes are formed by solutions with negative deviation from Raoult's law? Give an example for it."),
+    Q("Exam 2", "Q31", "(a) State Henry's law. Write its mathematical form. (b) What is the effect of pressure on solubility of solids in liquids?"),
+    Q("Exam 3", "Q31", "What are colligative properties? Name the colligative property expressed in terms of mole fraction. Write the mathematical equation of that colligative property."),
+  ])],
+  [P("2024", "Exam", "indigo", [
+    Q("Exam 1", "Q33", "(a) What is reverse osmosis? Mention one of its applications. (b) State Henry's law."),
+    Q("Exam 2", "Q33", "Write any three differences between ideal and non-ideal solutions."),
+    Q("Exam 3", "Q33", "(a) State Henry's law. Write an application of it. (b) It is not possible to separate the components of azeotropes by fractional distillation. Give reason."),
+  ])],
+];
+
+export const CHEMISTRY_3M_PHYS = {
+  "Solutions": SOLUTIONS_3M,
+};
