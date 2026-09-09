@@ -13,6 +13,7 @@ import { PHYSICS_5M, PHYSICS_NUMERIC, PHYSICS_3M, PHYSICS_2M } from "@/lib/physi
 import { PHYSICS_3M_EXTRA } from "@/lib/physics3mQuestions";
 import { CHEMISTRY_2M } from "@/lib/chemistryQuestions";
 import { CHEMISTRY_5M } from "@/lib/chemistry5mQuestions";
+import { CHEMISTRY_3M_INORG } from "@/lib/chemistry3mQuestions";
 
 export const CHAPTER_QUESTION_BANKS = {
   // Relations and Functions · 5 Mark — shared by both flows (label + chapter-no keys)
@@ -113,6 +114,12 @@ export const CHAPTER_QUESTION_BANKS = {
   "chemistry:Alcohols, Phenols & Ethers:5m-org": CHEMISTRY_5M["Alcohols, Phenols & Ethers"],
   "chemistry:Alcohols, Phenols and Ethers:5m-org": CHEMISTRY_5M["Alcohols, Phenols & Ethers"],
   "chemistry:7:5m-org": CHEMISTRY_5M["Alcohols, Phenols & Ethers"],
+
+  // ===== Chemistry — 3 Mark (Part C, inorganic) — d & f Block =====
+  "chemistry:d & f Block Elements:3m-inorg": CHEMISTRY_3M_INORG["The d & f Block Elements"],
+  "chemistry:The d & f Block Elements:3m-inorg": CHEMISTRY_3M_INORG["The d & f Block Elements"],
+  "chemistry:The d- and f-Block Elements:3m-inorg": CHEMISTRY_3M_INORG["The d & f Block Elements"],
+  "chemistry:4:3m-inorg": CHEMISTRY_3M_INORG["The d & f Block Elements"],
 };
 
 export function getChapterBank(subjectId, ch, mark) {
